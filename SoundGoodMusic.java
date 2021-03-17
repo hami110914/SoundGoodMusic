@@ -7,7 +7,7 @@ class Driver {
     public static void main(String[] args) {
 
         try {
-            Connection myconn = DriverManager.getConnection("jdbc:mysql://localhost:3306/SoundGoodMusic", "root", "Hami110914");
+            Connection myconn = DriverManager.getConnection("jdbc:mysql://localhost:3306/SoundGoodMusic", "root", "PASSWORD");
             Statement myStmt = myconn.createStatement();
             Statement myStmt2 = myconn.createStatement();
             Statement myStmt3 = myconn.createStatement();
